@@ -34,10 +34,29 @@ main {
     background: url(imagens/frame-iphone.png) no-repeat;
 }
 
-#tela {
+#screen {
     position: relative;
     top: 80px;
     left: 22px;
     width: 269px;
     height: 471px;
+}
+
+#social-media {
+    text-align: center;
+}
+
+#social-media img {
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.342);
+    box-sizing: border-box;
+}
+
+#social-media img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.692);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+    transition: 0.2s;
 }
